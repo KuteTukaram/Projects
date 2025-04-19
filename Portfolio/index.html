@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tukaram Kute - Java Developer</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"/>
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans">
+
+  <!-- NAVBAR -->
+  <header class="bg-white shadow">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-xl font-bold text-blue-700">Tukaram Kute</h1>
+      <nav class="space-x-4">
+        <a href="#about" class="text-gray-700 hover:text-blue-600">About</a>
+        <a href="#skills" class="text-gray-700 hover:text-blue-600">Skills</a>
+        <a href="#projects" class="text-gray-700 hover:text-blue-600">Projects</a>
+        <a href="#contact" class="text-gray-700 hover:text-blue-600">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="text-center py-12 bg-blue-50">
+    <img src="assest/TukaramKute.jpg" alt="Profile" class="w-32 h-32 mx-auto rounded-full shadow-md mb-4">
+    <h2 class="text-3xl font-bold text-blue-800">Java Backend Developer</h2>
+    <p class="text-gray-700 mt-2">Skilled in Java, SQL, Spring Boot, Hibernate & REST APIs</p>
+    <a href="assest/Tukaram_Share.pdf" download class="mt-4 inline-block bg-blue-700 text-white px-6 py-2 rounded-full hover:bg-blue-800">Download Resume</a>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="max-w-5xl mx-auto p-6 bg-white mt-6 rounded shadow">
+    <h3 class="text-2xl font-semibold text-blue-700 mb-3">About Me</h3>
+    <p class="text-gray-700 leading-relaxed">
+      I'm a passionate Java developer with experience building full-stack web applications. I enjoy creating efficient, scalable backend systems using modern frameworks and tools like Spring Boot, Hibernate, and PostgreSQL. My goal is to build software that solves real-world problems and improves user experiences.
+    </p>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="max-w-5xl mx-auto p-6 bg-white mt-6 rounded shadow">
+    <h3 class="text-2xl font-semibold text-blue-700 mb-4">Skills</h3>
+    <div class="flex flex-wrap gap-3">
+      <span class="bg-blue-100 text-blue-700 px-4 py-2 rounded-full">Core Java</span>
+      <span class="bg-blue-100 text-blue-700 px-4 py-2 rounded-full">JDBC</span>
+      <span class="bg-blue-100 text-blue-700 px-4 py-2 rounded-full">JSP/Servlet</span>
+      <span class="bg-blue-100 text-blue-700 px-4 py-2 rounded-full">HTML/CSS</span>
+      <span class="bg-blue-100 text-blue-700 px-4 py-2 rounded-full">Spring Boot</span>
+      <span class="bg-blue-100 text-blue-700 px-4 py-2 rounded-full">Hibernate</span>
+      <span class="bg-blue-100 text-blue-700 px-4 py-2 rounded-full">MySQL</span>
+      <span class="bg-blue-100 text-blue-700 px-4 py-2 rounded-full">Oracle19c</span>
+      <span class="bg-blue-100 text-blue-700 px-4 py-2 rounded-full">PostgreSQL</span>
+      <span class="bg-blue-100 text-blue-700 px-4 py-2 rounded-full">Git/GitHub</span>
+      <span class="bg-blue-100 text-blue-700 px-4 py-2 rounded-full">Postman</span>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="max-w-5xl mx-auto p-6 bg-white mt-6 rounded shadow">
+    <h3 class="text-2xl font-semibold text-blue-700 mb-4">Projects</h3>
+    <div class="space-y-4">
+      <div class="p-4 border rounded">
+        <h4 class="text-xl font-bold text-gray-800">CRM System</h4>
+        <p class="text-sm text-gray-600 mb-2">Tech Stack: Java, Spring Boot, REST API, PostgreSQL</p>
+        <a href="https://github.com/KuteTukaram/Projects/tree/main/CustomerRelationshipManagement" class="text-blue-600 underline" target="_blank">View on GitHub</a>
+      </div>
+      <div class="p-4 border rounded">
+        <h4 class="text-xl font-bold text-gray-800">Electricity Billing System</h4>
+        <p class="text-sm text-gray-600 mb-2">Tech Stack: Core java (Swing & AWT), Jdbc, PostgreSQL</p>
+        <a href="https://github.com/KuteTukaram/Projects/tree/main/ElectricityBillingSystem" class="text-blue-600 underline" target="_blank">View on GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="max-w-5xl mx-auto p-6 bg-white mt-6 rounded shadow">
+    <h3 class="text-2xl font-semibold text-blue-700 mb-4">Contact Me</h3>
+    <form action="https://formspree.io/f/xeoayeog" method="POST" class="space-y-4">
+      <input type="text" name="name" placeholder="Your Name" class="w-full px-4 py-2 border rounded" required>
+      <input type="email" name="email" placeholder="Your Email" class="w-full px-4 py-2 border rounded" required>
+      <textarea name="message" placeholder="Your Message" rows="4" class="w-full px-4 py-2 border rounded" required></textarea>
+      <button type="submit" class="bg-blue-700 text-white px-6 py-2 rounded hover:bg-blue-800">Send Message</button>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="text-center py-6 text-sm text-gray-600 mt-10">
+    <p>© 2025 Tukaram Kute. All rights reserved.</p>
+    <p>
+      <a href="https://linkedin.com/in/tukaram-kute-75412721b" class="text-blue-700 hover:underline" target="_blank">LinkedIn</a> |
+      <a href="https://github.com/KuteTukaram" class="text-blue-700 hover:underline" target="_blank">GitHub</a>
+    </p>
+  </footer>
+
+</body>
+</html>
